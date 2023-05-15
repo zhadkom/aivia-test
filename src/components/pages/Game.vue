@@ -7,10 +7,14 @@
             label="Size X"
             type="number"
             min="1"
+            variant="plain"
+            class="text-white"
         ></v-text-field>
       </v-col>
       <v-col cols="auto">
         <v-text-field
+            variant="plain"
+            class="text-white"
             v-model.number="sizeY"
             label="Size Y"
             type="number"
