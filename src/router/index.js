@@ -3,7 +3,8 @@ import Home from '../components/pages/Home.vue'
 import Game from '../components/pages/Game.vue'
 
 const routes = [
-    { path: '/', component: Home },
+    { path: '/' , component: Home },
+    { path: '/home' , component: Home },
     { path: '/game', component: Game }
 ]
 
